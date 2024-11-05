@@ -1,3 +1,143 @@
+html,
 body {
-    background-color: rebeccapurple;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 224, 239);
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #ffe3e3;
+    z-index: 99999;
+    padding: 1% 2%;
+    border-bottom: 2px rgb(102, 90, 180);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.divider {
+    background-color: rgb(102, 90, 180);
+    height: 3rem;
+    width: 2px;
+}
+
+button {
+    color: rgb(17, 17, 24);
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1% 4%;
+    background-color: transparent;
+    border: none;
+    border-radius: 16px;
+    transition: 0.1s ease-in-out;
+}
+
+button:hover {
+    background-color: #cecece;
+}
+
+div#content {
+    background-color: #cecece;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+div#container {
+    background-color: #ffe3e3;
+    border-radius: 8px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 4% 12%;
+    gap: 36px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(17, 17, 24);
+    background-color: #ffe3e3;
+    padding: 1% 0%; 
+    gap: 16px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+i::before{
+    color: rgb(17, 17, 24);
+    font-size: 24px;
+}
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.h1-container {
+    background-color: #cecece;
+    padding: 1% 2%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+h1 {
+    color: rgb(17, 17, 24);
+    font-size: 2.5rem;
+}
+
+.cover-img {
+    border-radius: 8px;
+    width: 540px;
+    height: 360px;
+    background-image: url(images/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+
+.dContainer {
+    background-color: #cecece;
+    border-radius: 8px;
+    padding: 4%;
+    width: 80%;
+    align-self: center;
+}
+
+p {
+    color: rgb(17, 17, 24);
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.p-div {
+    padding: 4% 8%;
+    background-color: #cecece;
+    border-radius: 8px;
+    width: 64%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.t-div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-self: center;
+}
+
+div>h4 {
+    margin: 4px;
 }
